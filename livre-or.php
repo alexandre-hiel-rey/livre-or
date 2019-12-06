@@ -30,6 +30,7 @@
                             <li><a href="livre-or.php">Livre d'or</a></li>
                             <?php 
                                 if(isset($_SESSION['login'])){?>
+                            <li><a href="commentaire.php">Ajouter un commentaire</a></li>
                             <li><a href="profil.php">Profil</a></li>
                             <li><a href="index.php?disc">Déconnecter</a></li>
                                 <?php } ?>
